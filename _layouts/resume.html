@@ -9,8 +9,16 @@
 </head>
 <body data-spy="scroll" data-target="#main-navbar">
 	<div id="main-navbar" class="navbar navbar-fixed-top">					
-		<div class="navbar-inner">
-			<div class="container">
+		<div class="container">
+			<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+		    	<span class="icon-bar"></span>
+		    	<span class="icon-bar"></span>
+		    	<span class="icon-bar"></span>
+		    </button>
+		    <span class="navbar-brand"></span>
+		    <!-- Place everything within .nav-collapse to hide it until above 768px -->
+    		<div class="nav-collapse collapse navbar-responsive-collapse">
 				<ul class="nav navbar-nav cv-nav">
 					<li><a href="#objective">Objective</a></li>
 					<li><a href="#summary">Professional Summary</a></li>
@@ -18,9 +26,9 @@
 					<li><a href="#skills">Technical Skills</a></li>
 					<li><a href="#history">Work History</a></li>
 					<li><a href="#education">Education</a></li>
-				</ul>												
-			</div>	
-		</div>	
+				</ul>			
+			</div>									
+		</div>			
 	</div>
 	<div class="container cv-container">
 		<div class="row">
